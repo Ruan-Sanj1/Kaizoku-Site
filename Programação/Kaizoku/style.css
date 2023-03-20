@@ -1,0 +1,29 @@
+.cabecalho{
+    background-color: #03071F;
+    /*Cor do fundo da caixa*/
+    color: #FFFFFF;
+    /*Cor geral, no caso usado nas letras*/
+    display: flex;
+    /*display muda o jeito que as coisas estão 
+    organizadas, e flex faz com que o elemento 
+    não ocupe a linha toda, só o seu espaço.*/
+    justify-content: space-around;
+    /*justify-content mostra como o conteúdo está dividido 
+    na linha, "space-around" faz com que tenha espaço igual 
+    em volta de cada elemento*/
+}
+
+.cabecalhoImagem{
+    /*Quando a gente fala de uma classe, ela precisa ficar 
+    com um ponto na frente quando aparece no CSS.*/
+    width: 20%;
+}
+
+.cabecalhoListaItem{
+    display: inline-block;
+    /*O "inline-block" diz que o elemento só ocupa o espaço necessário*/
+}
+
+/*Lembre de deixar as coisas no CSS na mesma ordem em que ficam 
+no HTML. Isso faz com que seja mais fácil se organizar*/
+
