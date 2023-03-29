@@ -64,5 +64,13 @@
     width: 25%;
 }
 
+.membroImagem{
+    width: 120px;
+}
+
+.membroIcone{
+    width: 24px;
+}
+
 /*Lembre de deixar as coisas no CSS na mesma ordem em que ficam 
 no HTML. Isso faz com que seja mais fácil se organizar*/
