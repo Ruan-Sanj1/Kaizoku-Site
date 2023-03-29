@@ -64,6 +64,24 @@
     width: 25%;
 }
 
+.membrosTitulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.membrosTodos{
+    display: grid;
+    /*Transforma o display em quadrados*/
+    grid-template-columns: 10% 20% 20% 20% 20%;
+    /*Quanto cada coluna ocupa de espaço na página,
+    é feito em sequência, a primeira é o span*/
+}
+
+.membroDiv{
+    text-align: center;
+    padding-bottom: 34px;
+}
+
 .membroImagem{
     width: 120px;
 }
