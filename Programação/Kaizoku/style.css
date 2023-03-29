@@ -1,3 +1,10 @@
+* {
+    /*O asterísco simboliza que 
+    se aplica a todo o CSS*/
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho{
     background-color: #03071F;
     /*Cor do fundo da caixa*/
@@ -11,19 +18,87 @@
     /*justify-content mostra como o conteúdo está dividido 
     na linha, "space-around" faz com que tenha espaço igual 
     em volta de cada elemento*/
+    padding: 24px 0;
+    /*Espaçamento interno*/
+    font-size: 24px;
+    /*Tamanho da fonte do cabeçalho*/
 }
 
 .cabecalhoImagem{
     /*Quando a gente fala de uma classe, ela precisa ficar 
     com um ponto na frente quando aparece no CSS.*/
-    width: 20%;
+    width: 5%;
+    height: 100px;
 }
 
 .cabecalhoListaItem{
     display: inline-block;
     /*O "inline-block" diz que o elemento só ocupa o espaço necessário*/
+    margin: 0 16px;
+    /*margin é o espaçamento externo*/
+    padding: 24px 0;
+    /*padding é o espaçamento interno*/ 
+}
+
+.sobre{
+    background-image: linear-gradient(#03071F, #116585);
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    /*Centraliza o conteúdo no meio (eixo x)*/
+    align-items: center;
+    /*Centraliza o conteúdo no meio (eixo y)*/
+    padding: 24px 0;
+}
+
+.sobreConteudo{
+    width: 35%;
+    /*Largura  da caixa de texto "sobre"*/
+}
+
+.sobreTitulo{
+    padding: 24px 0;
+}
+
+.sobreImagem{
+    width: 25%;
+}
+
+.membros{
+    background-color: #116585;
+}
+
+.membrosTitulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.membrosTodos{
+    display: grid;
+    /*Transforma o display em quadrados*/
+    grid-template-columns: 10% 20% 20% 20% 20%;
+    /*Quanto cada coluna ocupa de espaço na página,
+    é feito em sequência, a primeira é o span*/
+}
+
+.membroDiv{
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.membroImagem{
+    width: 120px;
+}
+
+.membroIcone{
+    width: 24px;
+}
+
+footer{
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
 }
 
 /*Lembre de deixar as coisas no CSS na mesma ordem em que ficam 
 no HTML. Isso faz com que seja mais fácil se organizar*/
-
